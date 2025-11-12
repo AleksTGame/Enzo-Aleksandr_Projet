@@ -3,9 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-img{
-    width: 550px;
+body{
+    background-image: url(../img/background/{8CA5D901-05A6-41D2-8B9A-4E0973E896C6}.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+article,h3, p{
+    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header{
     background-color: #333;
     color: white;
@@ -15,6 +25,122 @@ header{
     font-family: Arial, sans-serif;
 }
 nav{
+    display: flex;
+    justify-content: space-evenly;
     background-color: #444;
     padding: 10px 0;
+    
 }
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    border-style: solid;
+    border-width: 3px;
+    padding: 20px;
+    border-radius: 100px;
+    background-color: black;
+
+    
+}
+
+
+
+nav a:hover {
+    transform: scale(2.1);
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+     background: #ffffff;
+    color: #000000;
+    transform: translateY(-1px);
+}
+main{
+    padding: 10px;
+    margin: 10px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+article{
+    
+    border-radius: 25px;
+    width: 35rem;
+    color: #ffffff;
+    background-color: #00000067;
+    margin: 22px;
+    padding: 15px;
+    
+    
+
+
+}
+article:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 10px 5px 5px rgb(255, 255, 255);
+}
+article p{
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+article h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+article img{
+    width: 525px;
+    height: auto;
+    margin: 3px;
+}
+
+footer{
+    background-color: #333;
+    color: aliceblue;
+    margin-top: auto;
+    padding: 22px;
+    
+
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a {
+    text-decoration: none;
+    color: cyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+footer a:hover{
+    color: red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
