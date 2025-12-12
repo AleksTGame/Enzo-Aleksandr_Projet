@@ -56,6 +56,7 @@ nav a:hover {
     color: #000000;
     transform: translateY(-1px);
 }
+
 main{
     padding: 10px;
     margin: 10px;
@@ -76,15 +77,12 @@ section{
 article{
     
     border-radius: 25px;
-    width: 35rem;
+    width: 32rem;
     color: #ffffff;
     background-color: #00000067;
     margin: 22px;
     padding: 15px;
     
-    
-
-
 }
 article:hover{
     transform: scale(1.05);
@@ -103,12 +101,12 @@ article h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 article img{
-    width: 525px;
+    width: 475px;
     height: auto;
     margin: 3px;
 }
 article video{
-    width: 525px;
+    width: 475px;
     height: auto;
     margin: 3px;
 }
@@ -150,6 +148,55 @@ footer a:hover{
     margin-top: 50px;
 }
 
+
+
+@media (max-width: 640px) {
+
+    .burger span{
+    display: flex;
+    background-color: black;
+    width: 50px;
+    height: 10px;
+    margin: 5px;
+}
+
+.burger button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.burger span:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: white;
+}
+
+nav a{
+    display: none;
+}
+
+
+}
+
+@media (max-width: 610px) {
+    header{
+        background-color: transparent;
+        
+    }
+
+    main h2{
+        font-size: em;
+    }
+
+    nav{
+        background-color: transparent;
+    }
+
+    
+}
+
+    
 
 
 
